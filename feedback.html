@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0;
+            }
+            .main{
+                background-color: lightblue;
+                border: 2px solid black;
+                border-radius: 20px;
+                width: 350px;
+                height: 450px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 120px;
+            }
+            .for{
+                margin-top: 2%;
+                margin-left: 75px;
+            }
+            .it{
+                border: 2px solid gray;
+                height: 30px;
+                border-radius:  6px;
+                outline: none;
+            }
+            .at{
+                margin-top: 5%;
+                margin-left: 25px;
+            }
+            .button{
+                margin-left: 110px;               
+            }
+        </style>
+    </head>
+    <body style="background-color:lightyellow">
+        <div class="main">
+            <div class="for">
+        <h1>Feedback Form</h1>
+            </div>
+            <div class="at">
+        <h3><b>Feedback Type :</b></h3><br>
+        <input type="radio" id="feedback" name="feedback">Comments<br>
+        <input type="radio" id="feedback" name="feedback">Suggestion<br>
+        <input type="radio" id="feedback" name="feedback">Question <br><br>
+        <b>Describe your feedback : </b><br>
+        <textarea rows="3" cols="30"></textarea><br><br>
+        <b>Your Full Name :</b><br><br>
+        <p>First name -
+        <input type="text"><br><br>
+        </p>
+        <p>Last name -
+        <input type="text"><br><br><br><br>
+                <div class="button">
+        <button type="button" style="background-image: linear-gradient(45deg, rgba(46, 87, 157, 0.781), rgb(120, 162, 188));" 
+        onclick="alert('your response has been recorded')">SUBMIT</button></p>
+        </div>
+            </div>
+                </div>
+    </body>
+</html>
